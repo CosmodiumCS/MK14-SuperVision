@@ -106,14 +106,14 @@ var cameraClusterGroup = L.markerClusterGroup({ // cameras
 });
 
 // layer control
-var cameraLayerGroup = L.layerGroup([cameraClusterGroup]); // cameras
+var cameraClusterGroup = L.layerGroup([cameraClusterGroup]); // cameras
 var transitLayerGroup = L.layerGroup();
 var baseLayers = {
     "CosmodiumCS Tiles": cosmodiumcsTileLayer,
     "Sattelite Tiles": satelliteTileLayer
 };
 var overlays = {
-    "Cameras": cameraLayerGroup,
+    "Cameras": cameraClusterGroup,
     "Transit": transitLayerGroup
 };
 
@@ -137,3 +137,70 @@ cameraArray.forEach((file) => {
 // add cameras to map
 map.addLayer(cameraClusterGroup);
 
+// new shit
+
+// Create separate layer groups for cameras and transit vehicles
+// var cameraLayerGroup = L.layerGroup().addTo(map);
+var transitLayerGroup = L.layerGroup().addTo(map);
+
+// Function to update markers on a specific layer group
+function updateMarkers(layerGroup, apiEndpoint) {
+    fetch(apiEndpoint)
+        .then(response => response.json())
+        .then(data => {
+            // Clear existing markers in the specified layer group
+            layerGroup.clearLayers();
+
+            // Add new markers to the specified layer group
+            data.forEach(marker => {
+                L.marker([marker.lat, marker.lon])
+                    .addTo(layerGroup)
+                    .bindPopup(marker.popup);
+            });
+        })
+        .catch(error => console.error('Error fetching marker data:', error));
+}
+
+// Initial markers
+// updateMarkers(cameraLayerGroup, '/api/cameras');
+updateMarkers(transitLayerGroup, '/api/transit');
+
+// Auto-refresh every 5 seconds
+setInterval(function () {
+    // updateMarkers(cameraLayerGroup, '/api/cameras');
+    updateMarkers(transitLayerGroup, '/api/transit');
+}, 5000);
+
+
+
+// more shit
+
+
+// function loadAndPlotCameraData(file) {
+//     fetch(file)
+//         .then(response => response.json())
+//         .then(data => {
+//             // Add markers for each camera in the loaded data
+//             data.forEach(marker => {
+//                 L.marker([marker.lat, marker.lon])
+//                     .addTo(map)
+//                     .bindPopup(marker.popup);
+//             });
+//         })
+//         .catch(error => console.error('Error fetching camera data:', error));
+// }
+
+// // List of locations to load camera data from
+// var locations = ['location1', 'location2', 'location3'];
+
+// // Iterate through each location and load camera data
+// locations.forEach(location => {
+//     var jsonFile = `static/cameras/${location}.json`; // Adjust the path as needed
+//     var geojsonFile = `static/cameras/${location}.geojson`; // Adjust the path as needed
+
+//     // Load and plot data from JSON file
+//     loadAndPlotCameraData(jsonFile);
+
+//     // Load and plot data from GeoJSON file
+//     loadAndPlotCameraData(geojsonFile);
+// });
