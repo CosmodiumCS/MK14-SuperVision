@@ -15,7 +15,6 @@ def index():
 
 @app.route('/api/transit')
 def transit():
-    # Simulating new marker data, replace this with your actual data retrieval logic
     markers = [
         {'lat': 51.5074 + random.uniform(-0.1, 0.1), 'lon': -0.1278 + random.uniform(-0.1, 0.1), 'popup': 'Camera 1'},
         {'lat': 51.5074 + random.uniform(-0.1, 0.1), 'lon': -0.1278 + random.uniform(-0.1, 0.1), 'popup': 'Bus 1'},
