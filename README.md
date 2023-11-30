@@ -42,14 +42,14 @@ Also note that Supervision is rendering a lot of data, so **it may take a fair b
 ---
 
 <!-- map visualization -->
-![SuperVision Map](https://github.com/CosmodiumCS/SuperVision/blob/master/assets/ccs-styled-plots.png?raw=true)
+![SuperVision Map](https://github.com/CosmodiumCS/SuperVision/blob/main/assets/ccs-styled-plots.png?raw=true)
 
 ---
 
 <!-- how it works -->
 **How It Works:**
 
-SuperVision works by using Python to generate Keyhole Makrup Language [KML] files. KML files are used to map geographic data. There is a [KML](https://github.com/CosmodiumCS/SuperVision/tree/master/kml) directory that contains all of the generated KML files used in this project. **These files CAN be imported into Google Earth** and you will be able to view all of the markers showing the cameras and other public data that SuperVision has mapped. But Google Earth has two problems...
+SuperVision works by using Python to generate Keyhole Makrup Language [KML] files. KML files are used to map geographic data. There is a [KML](https://github.com/CosmodiumCS/SuperVision/tree/main/kml) directory that contains all of the generated KML files used in this project. **These files CAN be imported into Google Earth** and you will be able to view all of the markers showing the cameras and other public data that SuperVision has mapped. But Google Earth has two problems...
 
 1. Google Earth is **NOT** open source
 2. Google Earth only maps data statically
@@ -59,7 +59,7 @@ SuperVision's open source magic allows us to do so much more than what propriata
 ---
 
 <!-- youtube embed -->
-[![Devlog One](https://github.com/CosmodiumCS/SuperVision/blob/master/assets/supervision-tn.png?raw=true)](https://www.youtube.com/watch?v=knagAWTn7FQ "SuperVision : The Hacker Google Mapper")
+[![Devlog One](https://github.com/CosmodiumCS/SuperVision/blob/main/assets/supervision-tn.png?raw=true)](https://www.youtube.com/watch?v=knagAWTn7FQ "SuperVision : The Hacker Google Mapper")
 
 ---
 
@@ -80,7 +80,7 @@ Watch the first devlog for SuperVision now!! It will give you an update on what 
 
 <!-- executing program -->
 ## Local Hosting
-**SuperVision does have a website [here][supervision]** but if you wish to run it locally you can clone the repository and run the [main.py](https://github.com/CosmodiumCS/SuperVision/blob/master/main.py) file. You then can navigate to `127.0.0.1:5000` in your browser to view the map.
+**SuperVision does have a website [here][supervision]** but if you wish to run it locally you can clone the repository and run the [main.py](https://github.com/CosmodiumCS/SuperVision/blob/main/main.py) file. You then can navigate to `127.0.0.1:5000` in your browser to view the map.
 
 <!-- extraneous -->
 ## What Can SuperVision Track?
@@ -90,7 +90,7 @@ Watch the first devlog for SuperVision now!! It will give you an update on what 
 ---
 
 <!-- camera footage of cosmo -->
-![Cosmo Camera](https://github.com/CosmodiumCS/SuperVision/blob/master/assets/cosmo-cam.png)
+![Cosmo Camera](https://github.com/CosmodiumCS/SuperVision/blob/main/assets/cosmo-cam.png)
 
 ---
 
@@ -101,7 +101,7 @@ SuperVision is capable of plotting traffic, security, and other cameras on its m
 ---
 
 <!-- buses in chicago -->
-![Chicago Buses](https://github.com/CosmodiumCS/SuperVision/blob/master/assets/chicago-bus.png?raw=true)
+![Chicago Buses](https://github.com/CosmodiumCS/SuperVision/blob/main/assets/chicago-bus.png?raw=true)
 
 ---
 
@@ -112,7 +112,7 @@ SuperVision is capable of plotting live data. Above we can see the current posit
 ---
 
 <!-- airplanes -->
-![Airplanes](https://github.com/CosmodiumCS/SuperVision/blob/master/assets/airplane-plot.png?raw=true)
+![Airplanes](https://github.com/CosmodiumCS/SuperVision/blob/main/assets/airplane-plot.png?raw=true)
 
 ---
 
