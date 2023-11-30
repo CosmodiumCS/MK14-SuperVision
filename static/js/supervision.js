@@ -33,18 +33,31 @@ var geocoder = L.Control.geocoder({
 }).addTo(map);
 
 // icons
-var cameraIcon = L.icon({ // cameras
-    iconUrl: 'assets/camera.png',
-    iconSize:     [40, 40], 
-});             
-var busIcon = L.icon({ // buses
-    iconUrl: 'assets/bus.png',
-    iconSize:     [40, 40],
+var cameraIcon = L.icon({
+    iconUrl: '{{ url_for("static", filename="assets/camera.png") }}',
+    iconSize: [40, 40],
 });
-var boatIcon = L.icon({ // boats
-    iconUrl: 'assets/boat.png',
-    iconSize:     [40, 40],
+var busIcon = L.icon({
+    iconUrl: '{{ url_for("static", filename="assets/bus.png") }}',
+    iconSize: [40, 40],
 });
+var boatIcon = L.icon({
+    iconUrl: '{{ url_for("static", filename="assets/boat.png") }}',
+    iconSize: [40, 40],
+});
+
+// var cameraIcon = L.icon({ // cameras
+//     iconUrl: 'assets/camera.png',
+//     iconSize:     [40, 40], 
+// });             
+// var busIcon = L.icon({ // buses
+//     iconUrl: 'assets/bus.png',
+//     iconSize:     [40, 40],
+// });
+// var boatIcon = L.icon({ // boats
+//     iconUrl: 'assets/boat.png',
+//     iconSize:     [40, 40],
+// });
 
 // cluster icons
 function cameraClusterIcon(cluster) { // cameras
@@ -61,7 +74,6 @@ function parseJSON(jsonFile) {
     .then(data => {
         data.forEach(point => {
             const camera = L.marker([point.lat, point.lon], {icon: cameraIcon})
-            <!-- const title = (point.description).replace("&","and"); -->
             camera.bindPopup("<a href="+point.url+" target=_blank>"+point.description+"</a>");
 
             cameraClusterGroup.addLayer(camera);
@@ -120,22 +132,22 @@ var overlays = {
 L.control.layers(baseLayers, overlays).addTo(map); // add layer control
 
 // camera array
-var cameraArray = ['cameras/maryland.json', 'cameras/virginia.geojson', 'cameras/london.geojson', 'cameras/nothern-ireland.geojson', 'cameras/alberta.json', 'cameras/toronto.json'];
+// var cameraArray = ['cameras/maryland.json', 'cameras/virginia.geojson', 'cameras/london.geojson', 'cameras/nothern-ireland.geojson', 'cameras/alberta.json', 'cameras/toronto.json'];
 
-// parse cameras
-cameraArray.forEach((file) => {
-    const extension = file.split(".").pop(); // get the file extension
-    if (extension === "json") {
-        parseJSON(file); // parse json data
-    } else if (extension === "geojson") {
-        parseGEO(file); // parse geojson data
-    } else {
-        console.log(`Unsupported file type: ${extension}`);
-    }
-});
+// // parse cameras
+// cameraArray.forEach((file) => {
+//     const extension = file.split(".").pop(); // get the file extension
+//     if (extension === "json") {
+//         parseJSON(file); // parse json data
+//     } else if (extension === "geojson") {
+//         parseGEO(file); // parse geojson data
+//     } else {
+//         console.log(`Unsupported file type: ${extension}`);
+//     }
+// });
 
 // add cameras to map
-map.addLayer(cameraClusterGroup);
+// map.addLayer(cameraClusterGroup);
 
 // new shit
 
@@ -176,31 +188,34 @@ setInterval(function () {
 // more shit
 
 
-// function loadAndPlotCameraData(file) {
-//     fetch(file)
-//         .then(response => response.json())
-//         .then(data => {
-//             // Add markers for each camera in the loaded data
-//             data.forEach(marker => {
-//                 L.marker([marker.lat, marker.lon])
-//                     .addTo(map)
-//                     .bindPopup(marker.popup);
-//             });
-//         })
-//         .catch(error => console.error('Error fetching camera data:', error));
-// }
+function loadAndPlotCameraData(file) {
+    fetch(file)
+        .then(response => response.json())
+        .then(data => {
+            // Add markers for each camera in the loaded data
+            data.forEach(marker => {
+                L.marker([marker.lat, marker.lon])
+                    .addTo(map)
+                    .bindPopup(marker.popup);
+            });
+        })
+        .catch(error => console.error('Error fetching camera data:', error));
+}
 
-// // List of locations to load camera data from
-// var locations = ['location1', 'location2', 'location3'];
+// List of locations to load camera data from
+var locations = ['maryland', 'london', 'virginia'];
 
-// // Iterate through each location and load camera data
-// locations.forEach(location => {
-//     var jsonFile = `static/cameras/${location}.json`; // Adjust the path as needed
-//     var geojsonFile = `static/cameras/${location}.geojson`; // Adjust the path as needed
+// Iterate through each location and load camera data
+locations.forEach(location => {
+    var jsonFile = `static/cameras/${location}.json`; // Adjust the path as needed
+    var geojsonFile = `static/cameras/${location}.geojson`; // Adjust the path as needed
 
-//     // Load and plot data from JSON file
-//     loadAndPlotCameraData(jsonFile);
+    // Load and plot data from JSON file
+    parseJSON(jsonFile);
 
-//     // Load and plot data from GeoJSON file
-//     loadAndPlotCameraData(geojsonFile);
-// });
+    // Load and plot data from GeoJSON file
+    parseGEO(geojsonFile);
+});
+
+
+map.addLayer(cameraClusterGroup);

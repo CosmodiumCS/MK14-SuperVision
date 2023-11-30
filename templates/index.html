@@ -9,7 +9,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SuperVision</title>
+    <title>MK14-SuperVision</title>
 
     <!-- leaflet css -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin=""/>
@@ -45,7 +45,148 @@
 
 <body>
     <div class="supervision-map" id="map"></div>
-    <script src="{{ url_for('static', filename='js/supervision.js') }}"></script>
-    <script src="templates/js/supervision.js"></script>
+    <!-- <script src="{{ url_for('static', filename='js/supervision.js') }}"></script> -->
+
+<script>
+// map
+var map = L.map("map",{center: [0, 0],crs: L.CRS.EPSG3857,zoom: 1,zoomControl: true,preferCanvas: false});
+L.control.scale().addTo(map);
+
+//  tile layers
+const cosmodiumcsTileLayer = L.tileLayer("https://api.mapbox.com/styles/v1/cosmodiumcs/cl5cuv2ar000315o5qr197too/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY29zbW9kaXVtY3MiLCJhIjoiY2w1Y3VucHRjMDZtdjNkb3libjNlMjEyZSJ9.z2TV_0S6PuuIHS847jCq1A", {attribution: "© CosmodiumCS"}).addTo(map); // cosmodiumcs tile layer
+const satelliteTileLayer = L.tileLayer("http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"); // sattelite tile layer
+
+// minimap
+const miniMap = new L.Control.MiniMap(L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors",
+    maxZoom: 18
+})).addTo(map);
+
+// geocoder
+const geocoder = L.Control.geocoder({
+    defaultMarkGeocode: false
+}).on("markgeocode", function(e) {
+    map.fitBounds(e.geocode.bbox);
+}).addTo(map);
+
+// icons
+const cameraIcon = L.icon({
+    iconUrl: "{{ url_for('static', filename='assets/camera.png') }}",
+    iconSize: [40, 40],
+});
+const busIcon = L.icon({
+    iconUrl: "{{ url_for('static', filename='assets/bus.png') }}",
+    iconSize: [40, 40],
+});
+const boatIcon = L.icon({
+    iconUrl: "{{ url_for('static', filename='assets/boat.png') }}",
+    iconSize: [40, 40],
+});
+
+// camera cluster icons
+function cameraClusterIcon(cluster) { // cameras
+    return L.divIcon({
+    html: "<div style='background-color: #009999; color: white; border-radius: 50%; width: 40px; height: 40px; text-align: center; line-height: 40px;'>" + cluster.getChildCount() + "</div>",
+    className: "custom-cluster-icon"
+    });
+}
+
+// parse json
+function parseJSON(jsonFile) {
+    fetch(jsonFile) 
+    .then(response => response.json())
+    .then(data => {
+        data.forEach(point => {
+            const camera = L.marker([point.lat, point.lon], {icon: cameraIcon})
+            camera.bindPopup("<a href="+point.url+" target=_blank>"+point.description+"</a>");
+            cameraClusterGroup.addLayer(camera);
+        });
+    })
+    .catch(error => {
+        console.error("Error fetching JSON data:", error);
+    });
+}
+
+// parse geojson
+function parseGEO(geojsonFile) {
+    fetch(geojsonFile) 
+        .then(response => response.json())
+        .then(data => {
+
+    const points = L.geoJSON(data, { 
+        onEachFeature: function(feature, layer) {
+            let url = feature.properties.url;
+            if (url.endsWith("m3u8")) {
+                url = "https://www.hlsplayer.org/play?url=" + url.replace(":","%3A").replace("/","%2F");
+            }
+                layer.bindPopup(`<a href="${url}" target="_blank">${feature.properties.description}</a>`);
+            },
+        pointToLayer: (feature, latlng) => {
+            const mpoints = L.marker(latlng, {icon: cameraIcon});
+            mpoints.bindPopup(data.description)
+            return mpoints
+        }
+    })
+            cameraClusterGroup.addLayer(points);
+        })
+    .catch(error => {
+        console.error("Error fetching JSON data:", error);
+    });
+}
+
+// update markers on a specific layer
+function updateMarkers(layerGroup, apiEndpoint) {
+    fetch(apiEndpoint)
+        .then(response => response.json())
+        .then(data => {
+            layerGroup.clearLayers();
+            data.forEach(marker => {
+                L.marker([marker.lat, marker.lon])
+                    .addTo(layerGroup)
+                    .bindPopup(marker.popup);
+            });
+        })
+        .catch(error => console.error("Error fetching marker data:", error));
+}
+
+// cluster groups
+var cameraClusterGroup = L.markerClusterGroup({iconCreateFunction: cameraClusterIcon});
+
+// layer groups
+var cameraLayerGroup = L.layerGroup([cameraClusterGroup]);
+var transitLayerGroup = L.layerGroup(); 
+
+// layers
+var baseLayers = {
+    "CosmodiumCS Tiles": cosmodiumcsTileLayer,
+    "Sattelite Tiles": satelliteTileLayer
+};
+var overlays = {
+    "Cameras": cameraLayerGroup
+};
+
+// layer control
+const layerControl = L.control.layers(baseLayers, overlays).addTo(map);
+layerControl.addOverlay(transitLayerGroup,"Transit");
+
+map.addLayer(cameraLayerGroup);
+
+// auto-refresh layer
+//updateMarkers(transitLayerGroup, "/api/transit"); // initial markers
+setInterval(function () {
+    updateMarkers(transitLayerGroup, "/api/transit");
+}, 5000);
+
+// plot camera locations
+var locations = ["maryland", "london", "virginia"];
+locations.forEach(location => {
+    var jsonFile = `static/cameras/${location}.json`; 
+    var geojsonFile = `static/cameras/${location}.geojson`; 
+
+    parseJSON(jsonFile);
+    parseGEO(geojsonFile);
+});
+</script>
+
 </body>
 </html>
