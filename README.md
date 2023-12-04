@@ -49,7 +49,7 @@ Also note that Supervision is rendering a lot of data, so **it may take a fair b
 <!-- how it works -->
 **How It Works:**
 
-SuperVision works by using Python to generate Keyhole Makrup Language [KML] files. KML files are used to map geographic data. There is a [KML](https://github.com/CosmodiumCS/SuperVision/tree/main/kml) directory that contains all of the generated KML files used in this project. **These files CAN be imported into Google Earth** and you will be able to view all of the markers showing the cameras and other public data that SuperVision has mapped. But Google Earth has two problems...
+SuperVision works by using Python to generate Keyhole Markup Language [KML] files. KML files are used to map geographic data. There is a [KML](https://github.com/CosmodiumCS/SuperVision/tree/main/kml) directory that contains all of the generated KML files used in this project. **These files CAN be imported into Google Earth** and you will be able to view all of the markers showing the cameras and other public data that SuperVision has mapped. But Google Earth has two problems...
 
 1. Google Earth is **NOT** open source
 2. Google Earth only maps data statically
