@@ -172,15 +172,15 @@ layerControl.addOverlay(transitLayerGroup,"Transit");
 map.addLayer(cameraLayerGroup);
 
 // auto-refresh layer
-//updateMarkers(transitLayerGroup, "/api/transit"); // initial markers
+updateMarkers(transitLayerGroup, "/mk14/api/transit"); // initial markers
 setInterval(function () {
-    updateMarkers(transitLayerGroup, "/api/transit");
-}, 5000);
+    updateMarkers(transitLayerGroup, "/mk14/api/transit");
+}, 30000);
 
 // plot camera locations
 {% for location in camera_locations %}
-parseGEO("/static/cameras/{{ location if location.endswith('geojson') }}");
-parseJSON("/static/cameras/{{ location if location.endswith('.json') }}");
+parseGEO("/mk14/static/cameras/{{ location if location.endswith('geojson') }}");
+parseJSON("/mk14/static/cameras/{{ location if location.endswith('.json') }}");
 {% endfor %}
 
 </script>

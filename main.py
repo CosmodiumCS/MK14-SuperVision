@@ -14,7 +14,8 @@ from flask import Flask, render_template, jsonify
 load_dotenv()
 CTA_KEY = os.getenv('CTA_KEY')
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static', static_url_path='/mk14/static')
+app.config['APPLICATION_ROOT'] = '/mk14'
 
 def list_files(directory):
     files = []
@@ -25,18 +26,21 @@ def list_files(directory):
     return files
 
 # main page
-@app.route('/')
-def index():
-    camera_list = list_files('static/cameras')
+@app.route('/mk14/')
+def mk14():
+    camera_list = list_files('/var/www/html/mk14-supervision/static/cameras')
     return render_template('index.html', camera_locations=camera_list)
 
-@app.route('/api/transit')
+@app.route('/mk14/api/transit')
 def transit():
+
+    # randomly generated cameras for testing / debugging
     cameras = [
         {'lat': 51.5074 + random.uniform(-0.1, 0.1), 'lon': -0.1278 + random.uniform(-0.1, 0.1), 'popup': 'Camera 1'},
         {'lat': 51.5074 + random.uniform(-0.1, 0.1), 'lon': -0.1278 + random.uniform(-0.1, 0.1), 'popup': 'Camera 2'},
     ]
     return jsonify(cameras)
+
     # cta_routes_url = f'http://www.ctabustracker.com/bustime/api/v2/getroutes?key={CTA_KEY}'
     # cta_bus_url = f'http://ctabustracker.com/bustime/api/v2/getvehicles?key={CTA_KEY}&rt='
     # vehicles_info = []
@@ -76,5 +80,5 @@ def transit():
 
 # main code, run app
 if __name__ == '__main__':
-    app.run(debug=True)
-
+    # app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)
