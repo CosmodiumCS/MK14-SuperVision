@@ -1,0 +1,2798 @@
+{
+  "type": "FeatureCollection",
+  "name": "KmlFile",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Westlink - Divis",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=213"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A1 - B10 Overbridge Junction",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=58"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M22 - Dunsilly Roundabout",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=210"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Lodge Rd Rand#39;bout Newbridge Coleraine",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=60"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Lodge Rd Rand#39;bout Lodge Coleraine",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=62"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Kilowen St Coleraine",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=67"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A2 Shore Rd - Trooperslane",
+        "url": " Carrick"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Westlink - York Street",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=55"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Westlink - Hospital",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=214"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A1 - Hillsborough Road Roundabout",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Victoria Street - High Street",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=153"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Upp Kand#39;Breda - Milltown Rd",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=211"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Upper Newtownards Rd - Stoney Rd",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=158"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Upper Newtownards Rd - Eastlink",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=25"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Upper Newtownards Rd - Dunlady Rd",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Upper Knockbreda Rd - Upper Galwally",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=49"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Stewartstown Road / Michael Ferguson Roundabout",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=164"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Sandy Row - Hope Street",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=202"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Saintfield Road - Primrose Hill",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=43"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A2 - Holywood Esplanade",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=45"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Orritor Street/Willima Street",
+        "url": " Cookstown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Great Northern Road ",
+        "url": " Tamlaght Road (Homebase)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Gaol Square",
+        "url": " Enniskillen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Dublin Road at Great Northern Road",
+        "url": " Omagh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Dromore Road at Asda",
+        "url": " Omagh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Dales Corner/A6 Glendermott Rd - A2 ColumbraTerrace",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=74"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A37 Coleraine Mountain",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Albertbridge Road - Woodstock Link",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Saintfield Rd Roundabout Lisburn",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=34"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Prince William Rd - Lisburn North Feeder Rd",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=32"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M1 - Blaris - Jct 8 ",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=35"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M1 - Blacks Rd - Jct 3",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=33"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Belsize Rd - North Feeder Rd",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=166"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A3 Moira Road - Halftown Road",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=168"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A2 - Bangor Rd - Old Station Rd ",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=46"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Castlereagh Rd - Grand Parade/ Ladas Dr",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M1 - Stockmans Lane",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=171"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M1 - Kennedy Way - Jct 2",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=170"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Lisburn Road - Eglantine Avenue",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=161"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Falls Road - Grosvenor Road",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=162"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "East Bridge Street - Central Station",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=156"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Durham St - College Sq Nth",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=201"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Dublin Rd - Bruce Street",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=159"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Donegall Square South-Adelaide Street",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=41"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M1 - Blacks Rd - Jct 3",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=33"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Boucher Road - Tates Avenue",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=54"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Belvoir Cand#39;way - Newtownbreda Rd - Tescoand#39;s",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Beersbridge Road - Castlereagh Street",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=157"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Ballygowan Road - Knock Road",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=190"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Andersonstown Road / Kennedy Way",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Andersonstown Rd - Finaghy Rd Nth",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=163"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Saintfield Road - Upper Galwally",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=184"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Ormeau Road - Ravenhill Road",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Saintfield Road - School Rd",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=185"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Saintfield Road - Primrose Hill",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=43"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Peters Hill - Millfield",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=155"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Oxford Street - Lanyon Place",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=152"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Oxford Street - Ann Street",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=151"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M1 Stockmans Lane",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Ormeau Road - Annadale Embankment",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=42"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Ormeau AV - Linehall ST",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=204"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Nand#39;ards RD - Albertbridge RD",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Milltown - Hospital Rd",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=212"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Malone Road - Old Stranmillis Road",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=51"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Malone Road - Balmoral Avenue",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=52"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M2 - Greencastle - Jct 2",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=36"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M2 - Fortwilliam North (1B16)",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=208"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M2 - Duncrue St North (0B14)",
+        "url": " https://trafficwatchni.com/twni/cameras/static?id=207"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A2 Rathgael, Bangor",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.7113818,
+          54.6470334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A2 - Tillysburn",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=44"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.860922,
+          54.6139594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Ballygowan Road - Knock Road",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=190"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.860922,
+          54.6139594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Andersonstown Road / Kennedy Way",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.860922,
+          54.6139594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Andersonstown Rd - Finaghy Rd Nth",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=163"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.860922,
+          54.6139594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Albertbridge Road - Woodstock Link",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.860922,
+          54.6139594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A2 - Holywood Exchange",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=189"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.86014736140642,
+          54.6238295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M1 - Blacks Rd - Jct 3",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=33"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8573616,
+          54.5948373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Lisburn Road - Eglantine Avenue",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=161"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8573616,
+          54.5948373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Knock Road - Upper Newtownards Road",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=48"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8573616,
+          54.5948373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M2 - Antrim Hospital",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=209"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.92833290324877,
+          54.65396525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M2 Duncrue Street",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9200896,
+          54.6132853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M2 - Greencastle - Jct 2",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=36"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9200896,
+          54.6132853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M2 - Fortwilliam North (1B16)",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=208"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9200896,
+          54.6132853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Donegall Square South-Adelaide Street",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=41"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.92057420804285,
+          54.6063085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "East Bridge Street - Central Station",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=156"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.92057420804285,
+          54.6063085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Durham St - College Sq Nth",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=201"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.92057420804285,
+          54.6063085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Dublin Rd - Bruce Street",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=159"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.92057420804285,
+          54.6063085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Dock Street - Garmoyle Street",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=154"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.92057420804285,
+          54.6063085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Prince William Rd - Lisburn North Feeder Rd",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=32"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9240242,
+          54.6052377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Milltown - Hospital Rd",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=212"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9240242,
+          54.6052377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M3 Lagan Bridge",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9240242,
+          54.6052377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Saintfield Road - Primrose Hill",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=43"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9240242,
+          54.6052377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Nand#39;ards RD - Albertbridge RD",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9240242,
+          54.6052377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Ormeau AV - Linehall ST",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=204"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9240242,
+          54.6052377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M3 - Lagan Bridge East",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=187"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9240242,
+          54.6052377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Malone Road - Balmoral Avenue",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=52"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9240242,
+          54.6052377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Malone Road - Old Stranmillis Road",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=51"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9240242,
+          54.6052377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Ormeau Road - Annadale Embankment",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=42"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9240242,
+          54.6052377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Ormeau Road - Ravenhill Road",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9240242,
+          54.6052377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Oxford Street - Ann Street",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=151"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9240242,
+          54.6052377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Oxford Street - Lanyon Place",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=152"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9240242,
+          54.6052377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Peters Hill - Millfield",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=155"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9240242,
+          54.6052377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Saintfield Road - Primrose Hill",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=43"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9240242,
+          54.6052377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Saintfield Road - School Rd",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=185"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9240242,
+          54.6052377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Saintfield Road - Upper Galwally",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=184"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9240242,
+          54.6052377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Sandy Row - Hope Street",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=202"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9240242,
+          54.6052377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Saintfield Rd Roundabout Lisburn",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=34"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9240242,
+          54.6052377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M3 Lagan Bridge",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9240242,
+          54.6052377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Chichester Street",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9241448,
+          54.5975403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Howard Street",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9318666,
+          54.5959232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M3 - Dee Street",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=188"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8960051,
+          54.6017007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A24 Carryduff",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.88753022888889,
+          54.5185841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Ballynahinch Road - Carryduff",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=186"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8877374,
+          54.5182263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Castlereagh Rd - Grand Parade/ Ladas Dr",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8877374,
+          54.5182263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Boucher Road - Tates Avenue",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=54"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8877374,
+          54.5182263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Belvoir Cand#39;way - Newtownbreda Rd - Tescoand#39;s",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8877374,
+          54.5182263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Beersbridge Road - Castlereagh Street",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=157"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8877374,
+          54.5182263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Upper Newtownards Rd - Eastlink",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=25"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8955985,
+          54.5688857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Upper Newtownards Rd - Dunlady Rd",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8955985,
+          54.5688857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Upper Knockbreda Rd - Upper Galwally",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=49"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8955985,
+          54.5688857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Upper Knockbreda Rd - Cregagh Rd",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=191"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8955985,
+          54.5688857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Upper Newtownards Rd - Stoney Rd",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=158"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8955985,
+          54.5688857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Upp Kand#39;Breda - Milltown Rd",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=211"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8955985,
+          54.5688857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Victoria Street - High Street",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=153"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8955985,
+          54.5688857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Westlink - Divis",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=213"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8955985,
+          54.5688857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Westlink - Hospital",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=214"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8955985,
+          54.5688857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Westlink - York Street",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=55"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8955985,
+          54.5688857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A2 Shore Rd - Trooperslane, Carrick",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=165"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8955985,
+          54.5688857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Finaghy Crossroads",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=53"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.985639,
+          54.5610627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Scullions Rd",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=37"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9795049,
+          54.6778125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M2 Sandyknowes",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9785353,
+          54.6779395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A12 Roden Street",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.949003,
+          54.5943363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M1 Broadway",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9587263,
+          54.5891282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M1 - Kennedy Way - Jct 2",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=170"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9587263,
+          54.5891282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Falls Road - Donegall Road",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.95349694489451,
+          54.58865495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Falls Road - Grosvenor Road",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=162"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.95349694489451,
+          54.58865495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "University Road - Stranmillis Road",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=160"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.93750349320543,
+          54.57259355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Stewartstown Road / Michael Ferguson Roundabout",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=164"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9339798,
+          54.5895233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Shaftesbury Square",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9339798,
+          54.5895233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A12 Clifton Street",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9362049,
+          54.6073728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A2 - Bangor Rd - Old Station Rd ",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=46"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0040463,
+          54.7171582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A2 - Ballyrobert",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=47"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0040463,
+          54.7171582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Union Bridge, Lisburn",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0384603,
+          54.509968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Union Bridge, Lisburn",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0384603,
+          54.509968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A37 Coleraine Mountain",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0384603,
+          54.509968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M1 - Blaris - Jct 8 ",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=35"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.028667,
+          54.5291265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M1 - Blacks Rd - Jct 3",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=33"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.028667,
+          54.5291265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Belsize Rd - North Feeder Rd",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=166"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.028667,
+          54.5291265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A3 Moira Road - Halftown Road",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=168"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.028667,
+          54.5291265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A2 Station Road",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.028667,
+          54.5291265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M2 - Browns Rd",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=38"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0226922,
+          54.6948032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A2 Beeches Road",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2253985,
+          53.2819518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A2 - Holywood Esplanade",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=45"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2253985,
+          53.2819518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A1 - Blaris",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=56"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.07638997854505,
+          54.49961115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M2 Templepatrick",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=17"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0827777,
+          54.7133647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M1 Sprucefield",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1772286,
+          54.7072855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M1 - Stockmans Lane",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=171"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1772286,
+          54.7072855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M1 Sprucefield",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1772286,
+          54.7072855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M1 Stockmans Lane",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1772286,
+          54.7072855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M2 - Duncrue St North (0B14)",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=207"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1772286,
+          54.7072855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Dublin Road, Antrim",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=193"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.222879,
+          54.7026708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A1 Banbridge",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=15"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2704305,
+          54.3393014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A1 - Cloghoge - Newry",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=59"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.3438811,
+          54.1553518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A1 - Hillsborough Road Roundabout",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.3438811,
+          54.1553518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A1 Newry",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.3145189,
+          54.26406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A6 Randalstown",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=39"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2950325,
+          54.7422261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A6 Randalstown",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=39"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2950325,
+          54.7422261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A6 Toome",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=40"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.458363,
+          54.7596713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A6 Toome",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=40"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.458363,
+          54.7596713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Old Bridge Coleraine",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=66"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.463704,
+          54.7554329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A28 Markethill",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=21"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.4920616,
+          54.2860061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M1 Tamnamore",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=13"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.6771849,
+          54.4933519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Strand Rd Coleraine",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=64"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.6761951,
+          55.130846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A1 - B10 Overbridge Junction",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=58"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.6761951,
+          55.130846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Kilowen St Coleraine",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=67"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.67953324196748,
+          55.12045875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Lodge Rd Rand#39;bout Lodge Coleraine",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=62"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.67953324196748,
+          55.12045875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Lodge Rd Rand#39;bout Newbridge Coleraine",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=60"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.67953324196748,
+          55.12045875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "M22 - Dunsilly Roundabout",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=210"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.67953324196748,
+          55.12045875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Greenmount Coleraine",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.67953324196748,
+          55.12045875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "A6 Glenshane Pass",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.6768036,
+          54.8350229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Orritor Street/Willima Street, Cookstown",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=199"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.7697007,
+          54.5042961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Market Square, Dungannon",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=198"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.7697007,
+          54.5042961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Great Northern Road , Tamlaght Road (Homebase), Omagh",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=196"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.7501246,
+          54.4957129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Gortmerron Link Road, Dungannon",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=197"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.7501246,
+          54.4957129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Ballykelly",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=68"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0166599,
+          55.044791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Drumahoe Park and Ride",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=75"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.28151341066481,
+          54.97701405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Caw Roundabout",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=71"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2771712,
+          55.0094004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Belt Road",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2984141,
+          54.9807784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Greenhaw",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=77"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3114264,
+          55.0227412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Culmore Roundabout",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.30382379067324,
+          55.02353185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Dales Corner/A6 Glendermott Rd - A2 ColumbraTerrace",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=74"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.30382379067324,
+          55.02353185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Rossdowney Road",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=78"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3002691,
+          54.995395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Great James Street",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=76"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3274966,
+          55.0003033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Strand Road",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=79"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3150402,
+          55.012975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Gaol Square, Enniskillen",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=200"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3150402,
+          55.012975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Dublin Road at Great Northern Road, Omagh",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=194"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3150402,
+          55.012975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Dromore Road at Asda, Omagh",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=195"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3150402,
+          55.012975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Craigavon Bridge",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=72"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3164636,
+          54.989784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Buncrana Road",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=70"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3579137,
+          55.0335509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Foyle Bridge",
+        "url": "https://trafficwatchni.com/twni/cameras/static?id=20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4442503,
+          52.7391422
+        ]
+      }
+    }
+  ]
+}
