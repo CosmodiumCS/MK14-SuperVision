@@ -178,14 +178,11 @@ setInterval(function () {
 }, 5000);
 
 // plot camera locations
-var locations = ["maryland", "london", "virginia"];
-locations.forEach(location => {
-    var jsonFile = `static/cameras/${location}.json`; 
-    var geojsonFile = `static/cameras/${location}.geojson`; 
+{% for location in camera_locations %}
+parseGEO("/static/cameras/{{ location if location.endswith('geojson') }}");
+parseJSON("/static/cameras/{{ location if location.endswith('.json') }}");
+{% endfor %}
 
-    parseJSON(jsonFile);
-    parseGEO(geojsonFile);
-});
 </script>
 
 </body>
