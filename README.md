@@ -3,7 +3,7 @@
 <!-- variables -->
 [ccs]: https://cosmodiumcs.com
 [youtube]: https://www.youtube.com/c/CosmodiumCS
-[supervision]: https://supervision-ccs.herokuapp.com/
+[supervision]: https://marks.cosmodiumcs.com/marks/mk14-supervision/
 
 <!-- title -->
 # SuperVision
